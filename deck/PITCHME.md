@@ -1,6 +1,6 @@
-# Mocha/Chai/Supertest hackathon
+## Mocha/Chai/Supertest hackathon
 
-## June 8th 2018
+### June 8th 2018
 
 ---
 
