@@ -27,6 +27,20 @@
 
 ---
 
+## Prerequisites
+
+---
+
+* A terminal
+* A web browser
+* A text editor (Visual Studio Code)
+* Node.js v8.9.4
+* NPM v5.6.0
+
+*Please double check you have the correct versions of Node/NPM*
+
+---
+
 ## Starting the microservice
 
 ---
@@ -34,7 +48,8 @@
 ### Steps to complete:
 
 * `npm install`
-* Ensure `http://localhost:3000/test/explorer` is working in your browser
+* `npm start`
+* `http://localhost:3000/test/explorer`
 
 ---
 
@@ -67,5 +82,3 @@
 ---
 
 ### Steps to complete:
-
----
