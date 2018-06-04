@@ -10,7 +10,7 @@
 * Creating good assertions with Chai
 * Component testing your application using Supertest
 
-Bear in mind that this is a code-along!
+*Bear in mind that this is a code-along!*
 
 ---
 
@@ -22,8 +22,8 @@ Bear in mind that this is a code-along!
 
 #### https://github.com/kslat3r/mocha-chai-supertest-hackathon
 
-* Make sure you have a src/ directory
 * Checkout the branch `step-one`
+* Make sure you have a src/ directory
 
 ---
 
