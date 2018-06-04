@@ -23,11 +23,22 @@
 #### https://github.com/kslat3r/mocha-chai-supertest-hackathon
 
 * Checkout the branch `step-one`
-* Make sure you have a src/ directory
+* Make sure you have a `src/` directory
 
 ---
 
-## Microservice
+## Starting the microservice
+
+---
+
+### Steps to complete:
+
+* `npm install`
+* Ensure `http://localhost:3000/test/explorer` is working in your browser
+
+---
+
+## Introducing our test runner
 
 ---
 
@@ -35,7 +46,7 @@
 
 ---
 
-## Mocha
+## Adding some unit tests
 
 ---
 
@@ -43,7 +54,7 @@
 
 ---
 
-## Chai
+## Adding some assertions
 
 ---
 
@@ -51,7 +62,7 @@
 
 ---
 
-## Supertest
+## Writing some component tests
 
 ---
 
