@@ -4,13 +4,13 @@
 
 ---
 
-## What we will cover
+### What we will cover
 
 * Mocha test runner and reporting
 * Creating good assertions with Chai
 * Component testing your application using Supertest
 
-### This is a code-along!
+Bear in mind that this is a code-along!
 
 ---
 
