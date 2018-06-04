@@ -14,19 +14,6 @@
 
 ---
 
-## Let's go!
-
----
-
-### Please clone the following repository from Github
-
-#### https://github.com/kslat3r/mocha-chai-supertest-hackathon
-
-* Checkout the branch `step-one`
-* Make sure you have a `src/` directory
-
----
-
 ## Prerequisites
 
 ---
@@ -38,6 +25,19 @@
 * NPM v5.6.0
 
 *Please double check you have the correct versions of Node/NPM*
+
+---
+
+## Let's go!
+
+---
+
+### Please clone the following repository from Github
+
+#### https://github.com/kslat3r/mocha-chai-supertest-hackathon
+
+* Checkout the branch `step-one`
+* Make sure you have a `src/` directory
 
 ---
 
