@@ -1,4 +1,4 @@
-## Mocha/Chai/Supertest hackathon
+## Mocha/Chai/Supertest workshop
 
 ### June 8th 2018
 
@@ -82,3 +82,7 @@
 ---
 
 ### Steps to complete:
+
+---
+
+### Thank-you all very much!
