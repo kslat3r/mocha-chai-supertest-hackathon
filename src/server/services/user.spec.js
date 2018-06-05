@@ -1,4 +1,4 @@
-const userService = require('./user');
+// const userService = require('./user');
 
 describe('services/user.js', () => {
   it('list should return correct response', async () => {

@@ -1,4 +1,4 @@
-const todoMapper = require('./todo');
+// const todoMapper = require('./todo');
 
 describe('mappers/todo.js', () => {
   it('maps todo records onto user objects', () => {
