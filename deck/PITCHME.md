@@ -61,26 +61,41 @@
 
 ### Steps to complete:
 
-* Add `mocha` test runner
-* Add `nyc` code coverage tool
+* Install `mocha` test runner
+* Install `nyc` code coverage tool
 * Add `nyc` configuration in `package.json`
 * Reconfigure the `npm test` command to execute the empty spec files with `nyc` and `mocha`
 
 ---
 
-## Adding some unit tests
+## Adding some libraries
 
 ---
 
 ### Steps to complete:
 
+* Install `sinon`, a mocking library
+* Install `chai`, an assertion library
+
 ---
 
-## Adding some assertions
+## Adding some specs!
 
 ---
 
 ### Steps to complete:
+
+* Develop your spec files
+  * filters/todo.spec.js
+  * mappers/todo.spec.js
+  * models/user.spec.js
+  * services/todo.spec.js
+  * services/user.spec.js
+
+#### Things to think about
+
+* Use `sinon` where appropriate to mock application dependencies outside of the units
+* Use `chai` where appropriate to create assertions against results
 
 ---
 
@@ -89,6 +104,11 @@
 ---
 
 ### Steps to complete:
+
+* Install `supertest` HTTP assertion library
+* In a directory `test/`:
+  * Create a component test for `GET /api/users`
+  * Create a component test for `GET /api/users/1`
 
 ---
 
