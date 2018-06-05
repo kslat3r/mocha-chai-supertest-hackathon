@@ -122,6 +122,7 @@
 * In the directory `src/test/`, write component tests for:
   * `GET /api/users`
   * `GET /api/users/1`
+* **BONUS** add the `mochawesome` reporting tool
 
 ---
 
