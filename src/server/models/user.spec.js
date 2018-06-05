@@ -4,48 +4,6 @@ const userService = require('../services/user');
 const todoService = require('../services/todo');
 const { expect } = require('chai');
 
-const user = {
-  id: 1,
-  name: 'Ed'
-};
-
-const users = [
-  {
-    id: 1,
-    name: 'Ed'
-  },
-  {
-    id: 2,
-    name: 'Lokesh'
-  }
-];
-
-const todos = [
-  {
-    userId: 1,
-    text: 'Write my mocks',
-    completed: false
-  },
-  {
-    userId: 2,
-    text: 'Write my comments',
-    completed: false
-  }
-];
-
-const todosUser = [
-  {
-    userId: 1,
-    text: 'Write my mocks',
-    completed: false
-  },
-  {
-    userId: 1,
-    text: 'Write my comments',
-    completed: false
-  }
-];
-
 describe('models/user.js', () => {
   let model;
 
@@ -61,8 +19,32 @@ describe('models/user.js', () => {
   });
 
   it('list should return the correct response', async () => {
+    const users = [
+      {
+        id: 1,
+        name: 'Ed'
+      },
+      {
+        id: 2,
+        name: 'Lokesh'
+      }
+    ];
+
     sinon.stub(userService, 'list')
       .callsFake(() => Promise.resolve(users));
+
+    const todos = [
+      {
+        userId: 1,
+        text: 'Write my mocks',
+        completed: false
+      },
+      {
+        userId: 2,
+        text: 'Write my comments',
+        completed: false
+      }
+    ];
 
     sinon.stub(todoService, 'list')
       .callsFake(() => todos);
@@ -139,11 +121,29 @@ describe('models/user.js', () => {
   });
 
   it('get should return the correct response', async () => {
+    const user = {
+      id: 1,
+      name: 'Ed'
+    };
+
     sinon.stub(userService, 'get')
       .callsFake(() => Promise.resolve(user));
 
+    const todos = [
+      {
+        userId: 1,
+        text: 'Write my mocks',
+        completed: false
+      },
+      {
+        userId: 1,
+        text: 'Write my comments',
+        completed: false
+      }
+    ];
+
     sinon.stub(todoService, 'list')
-      .callsFake(() => Promise.resolve(todosUser));
+      .callsFake(() => Promise.resolve(todos));
 
     const output = await model.get(1);
 
