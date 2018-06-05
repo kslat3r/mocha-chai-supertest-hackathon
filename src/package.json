@@ -10,7 +10,7 @@
     "test": "npm run test:coverage npm run test:unit",
     "test:coverage": "nyc",
     "test:unit": "mocha --exit './server/**/*.spec.js'",
-    "test:component": "MOCHAWESOME_REPORTDIR=./test/reports MOCHAWESOME_REPORTFILENAME=mocha-report mocha --exit --timeout 100000 --reporter mochawesome './test/**/*.spec.js'"
+    "test:component": "cross-env MOCHAWESOME_REPORTDIR=./test/reports MOCHAWESOME_REPORTFILENAME=mocha-report mocha --exit --timeout 100000 --reporter mochawesome './test/**/*.spec.js'"
   },
   "engines": {
     "node": "8.9.4",
@@ -28,6 +28,7 @@
   },
   "devDependencies": {
     "chai": "4.1.2",
+    "cross-env": "^5.1.6",
     "eslint": "4.12.1",
     "eslint-config-semistandard": "12.0.0",
     "eslint-config-standard": "11.0.0-beta.0",
