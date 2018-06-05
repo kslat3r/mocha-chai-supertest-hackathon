@@ -18,5 +18,5 @@ logs/*.log.*
 report-*.json
 
 test/reports/*.json
-tests/reports/*.html
-tests/reports/assets
+test/reports/*.html
+test/reports/assets
