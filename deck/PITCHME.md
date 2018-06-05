@@ -7,7 +7,9 @@
 ### What we will cover
 
 * Mocha test runner and reporting
+* NYC test code coverage tool
 * Creating good assertions with Chai
+* Mocking functions using Sinon
 * Component testing your application using Supertest
 
 *Bear in mind that this is a code-along!*
@@ -37,7 +39,7 @@
 #### https://github.com/kslat3r/mocha-chai-supertest-hackathon
 
 * Checkout the branch `step-one`
-* Make sure you have a `src/` directory
+* Make sure you have a `src/` directory and navigate to it
 
 ---
 
@@ -58,6 +60,11 @@
 ---
 
 ### Steps to complete:
+
+* Add `mocha` test runner
+* Add `nyc` code coverage tool
+* Add `nyc` configuration in `package.json`
+* Reconfigure the `npm test` command to execute the empty spec files with `nyc` and `mocha`
 
 ---
 
