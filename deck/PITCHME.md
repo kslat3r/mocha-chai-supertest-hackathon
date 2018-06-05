@@ -1,6 +1,6 @@
 ## Mocha/Chai/Supertest workshop
 
-### June 8th 2018
+### June 22nd 2018
 
 ---
 
@@ -13,6 +13,13 @@
 * Component testing your application using Supertest
 
 *Bear in mind that this is a code-along!*
+
+---
+
+### What this is not
+
+* A best practices class on TDD
+* Ideally, tests should be written **before** functionality
 
 ---
 
@@ -51,7 +58,11 @@
 
 * `npm install`
 * `npm start`
-* `http://localhost:3000/test/explorer`
+* `http://localhost:3000/explorer`
+
+---
+
+## Walkthrough of functionality
 
 ---
 
@@ -83,16 +94,17 @@
 
 ---
 
-### Steps to complete:
+### Specs to complete:
 
-* Develop your spec files
-  * filters/todo.spec.js
-  * mappers/todo.spec.js
-  * models/user.spec.js
-  * services/todo.spec.js
-  * services/user.spec.js
+* filters/todo.spec.js
+* mappers/todo.spec.js
+* models/user.spec.js
+* services/todo.spec.js
+* services/user.spec.js
 
-#### Things to think about
+---
+
+## Things to think about
 
 * Use `sinon` where appropriate to mock application dependencies outside of the units
 * Use `chai` where appropriate to create assertions against results
