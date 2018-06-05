@@ -118,9 +118,10 @@
 ### Steps to complete:
 
 * Install `supertest` HTTP assertion library
-* In a directory `test/`:
-  * Create a component test for `GET /api/users`
-  * Create a component test for `GET /api/users/1`
+* Configure `package.json` with a new NPM script to execute our component tests
+* In the directory `src/test/`, write component tests for:
+  * `GET /api/users`
+  * `GET /api/users/1`
 
 ---
 
